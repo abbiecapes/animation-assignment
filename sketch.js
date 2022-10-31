@@ -1,33 +1,80 @@
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(1280, 657);
 }
 
 function draw() {
-  background(125);
+  background(150, 0, 0);
   function setup() {
     createCanvas(100, 100, WEBGL);
   }
-  
-    rect(200, 200, 40, 50)
-    background(200);
-    //rotateZ(radians(rotationZ));
-    rotateX(radians(rotationX));
-    //rotateY(radians(rotationY));
-    box(200, 200, 200);
-    describe(`red horizontal line right, green vertical line bottom.
-      black background.`);
-  }
-  let value = 0;
- 
-    fill(value);
-    rect(25, 25, 50, 50);
-    describe(`black 50-by-50 rect turns lighter with mouse click and
-      drag until white, resets`);
-  function mouseDragged() {
-    value = value + 5;
-    if (value > 255) {
-      value = 0;
-    }
-  }
-  
-
+  // Draw a rectangle with rounded corners, each having a radius of 5. (where it is on screen, "", how big it is, "", corners)
+rect(20, 50, 90, 140, 5);
+describe(
+  'white rect with black outline and round edges in mid-right of canvas'
+);
+// Draw a rectangle with rounded corners, each having a radius of 20.
+rect(120, 100, 90, 140, 5);
+describe(
+  'white rect with black outline and round edges in mid-right of canvas'
+);
+// Draw a rectangle with rounded corners, each having a radius of 20.
+rect(220, 80, 90, 140, 5);
+describe(
+  'white rect with black outline and round edges in mid-right of canvas'
+);
+// Draw a rectangle with rounded corners, each having a radius of 20.
+rect(320, 80, 90, 140, 5);
+describe(
+  'white rect with black outline and round edges in mid-right of canvas'
+);
+// Draw a rectangle with rounded corners, each having a radius of 20.
+rect(420, 100, 90, 140, 5);
+describe(
+  'white rect with black outline and round edges in mid-right of canvas'
+);
+// Draw a rectangle with rounded corners, each having a radius of 20.
+rect(520, 120, 90, 140, 5);
+describe(
+  'white rect with black outline and round edges in mid-right of canvas'
+);
+// Draw a rectangle with rounded corners, each having a radius of 20.
+rect(620, 60, 90, 140, 5);
+describe(
+  'white rect with black outline and round edges in mid-right of canvas'
+);
+// Draw a rectangle with rounded corners, each having a radius of 20.
+rect(20, 200, 90, 140, 5);
+describe(
+  'white rect with black outline and round edges in mid-right of canvas'
+);
+// Draw a rectangle with rounded corners, each having a radius of 20.
+rect(120, 250, 90, 140, 5);
+describe(
+  'white rect with black outline and round edges in mid-right of canvas'
+);
+// Draw a rectangle with rounded corners, each having a radius of 20.
+rect(220, 230, 90, 140, 5);
+describe(
+  'white rect with black outline and round edges in mid-right of canvas'
+);
+// Draw a rectangle with rounded corners, each having a radius of 20.
+rect(320, 230, 90, 140, 5);
+describe(
+  'white rect with black outline and round edges in mid-right of canvas'
+);
+// Draw a rectangle with rounded corners, each having a radius of 20.
+rect(420, 250, 90, 140, 5);
+describe(
+  'white rect with black outline and round edges in mid-right of canvas'
+);
+// Draw a rectangle with rounded corners, each having a radius of 20.
+rect(520, 270, 90, 140, 5);
+describe(
+  'white rect with black outline and round edges in mid-right of canvas'
+);
+// Draw a rectangle with rounded corners, each having a radius of 20.
+rect(620, 210, 90, 140, 5);
+describe(
+  'white rect with black outline and round edges in mid-right of canvas'
+);
+}
