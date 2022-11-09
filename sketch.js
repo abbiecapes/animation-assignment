@@ -34,7 +34,7 @@ function draw() {
       fr = 10;
       frameRate(fr); // make frameRate 10 FPS
     } else {
-      clr = color(255, 0, 0);
+      clr = color(255, 0, 0);a
       fr = 30;
       frameRate(fr); // make frameRate 30 FPS
     }
